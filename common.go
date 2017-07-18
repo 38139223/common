@@ -1,7 +1,5 @@
-package main
+package common
 import "fmt"
-func main(){
-}
 func NewLoginer() loginer{
  return defaultLogin(0)
 }
