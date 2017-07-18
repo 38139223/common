@@ -1,5 +1,7 @@
-package common
+package main
 import "fmt"
+func main(){
+}
 func NewLoginer() loginer{
  return defaultLogin(0)
 }
@@ -9,11 +11,4 @@ login()
 type defaultLogin int
 func (d defaultLogin) Login(){
 fmt.Println("login in ...")
-}
-
-package main
-import "common"
-func main(){
-l:=common.NewLoginer()
-l.login()
 }
