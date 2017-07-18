@@ -4,7 +4,7 @@ func NewLoginer() Loginer{
  return defaultLogin(0)
 }
 type Loginer interface{
-login()
+Login()
 }
 type defaultLogin int
 func (d defaultLogin) Login(){
