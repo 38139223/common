@@ -1,6 +1,6 @@
 package common
 import "fmt"
-func NewLoginer() loginer{
+func NewLoginer() Loginer{
  return defaultLogin(0)
 }
 type Loginer interface{
